@@ -10,6 +10,39 @@
             background: #f4f6f8;
             color: #333;
         }
+        <head>
+    <title>Deepu Kumari | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        /* Photo Animation */
+        img {
+            border-radius: 50%;
+            border: 3px solid #ff69b4;
+            animation: photoEntry 1s ease-out;
+            transition: all 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px #ff69b4;
+            cursor: pointer;
+        }
+
+        @keyframes photoEntry {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
 
         header {
             background: #2c3e50;
