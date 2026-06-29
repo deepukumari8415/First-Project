@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deepu Kumari | Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        ul {
+            list-style: square;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Deepu Kumari</h1>
+    <p>Frontend Developer | 3D Printing Enthusiast | Engineering Student</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am an engineering student passionate about HTML, CSS, design,
+        and 3D printing. I enjoy building simple and useful projects.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java (Basic)</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <p>📌 Laptop Cooling Stand (CAD Design Project)</p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: deepu@example.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Deepu Kumari | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
